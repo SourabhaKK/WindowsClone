@@ -1,0 +1,36 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('bg2.gif');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.taskbar{
+    width: 100%;
+    background-color:'#c6cfe7';
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    height: 5%;
+}
+
+.taskbar img{
+    border-radius: 8px;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -1000px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 10px;
+}
